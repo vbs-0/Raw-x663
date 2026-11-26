@@ -11,7 +11,13 @@ This Magisk module enables Camera RAW support for Infinix X663C/X663D/X663 devic
 
 ## 🚀 Installation
 
-1. Download the `raw.zip` module
+1. Build the module zip from this repo (there is no prebuilt zip in it):
+
+   ```sh
+   git clone https://github.com/vbs-0/Raw-x663
+   cd Raw-x663 && zip -r ../raw.zip . -x '.git/*' 'README.md'
+   ```
+
 2. Open Magisk Manager
 3. Tap on Modules
 4. Tap on Install from storage
@@ -29,7 +35,7 @@ This Magisk module enables Camera RAW support for Infinix X663C/X663D/X663 devic
 
 If you have any questions or issues, you can reach out for support:
 
-- Telegram: [@vbsa_1](https://t.me/vbs_1)
+- Telegram: [@vbs_1](https://t.me/vbs_1)
 - Support Group: [t.me/infinix_note_11_12](https://t.me/infinix_note_11_12)
 
 ## 👏 Credits
